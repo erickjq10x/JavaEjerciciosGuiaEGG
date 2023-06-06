@@ -13,9 +13,7 @@ import java.util.Scanner;
  */
 public class Ejercicio6 {
 
-    /**
-     * @param args the command line arguments
-     */
+    /*Crear un programa que dado un numero determine si es par o impar.*/
     public static void main(String[] args) {
         Scanner getNumber = new Scanner(System.in);
         int number;

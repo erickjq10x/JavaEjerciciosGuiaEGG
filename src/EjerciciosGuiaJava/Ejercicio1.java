@@ -13,9 +13,8 @@ import java.util.Scanner;
  */
 public class Ejercicio1 {
 
-    /**
-     * @param args the command line arguments
-     */
+    /*Escribir un programa que pida dos números enteros por teclado y calcule la suma de los
+    dos. El programa deberá después mostrar el resultado de la suma*/
     public static void main(String[] args) {
         Scanner getNum1 = new Scanner(System.in), getNum2 = new Scanner(System.in);
         int number1, number2;

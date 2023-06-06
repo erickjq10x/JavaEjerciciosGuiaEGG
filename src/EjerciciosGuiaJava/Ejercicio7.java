@@ -13,9 +13,9 @@ import java.util.Scanner;
  */
 public class Ejercicio7 {
 
-    /**
-     * @param args the command line arguments
-     */
+    /*Crear un programa que pida una frase y si esa frase es igual a “eureka” el programa
+    pondrá un mensaje de Correcto, sino mostrará un mensaje de Incorrecto. Nota:
+    investigar la función equals() en Java.*/
     public static void main(String[] args) {
         Scanner getPhrase = new Scanner(System.in);
         String phrase, realPhrase="eureka";

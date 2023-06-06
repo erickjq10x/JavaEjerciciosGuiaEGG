@@ -13,9 +13,9 @@ import java.util.Scanner;
  */
 public class Ejercicio5 {
 
-    /**
-     * @param args the command line arguments
-     */
+    /*Escribir un programa que lea un número entero por teclado y muestre por pantalla el
+    doble, el triple y la raíz cuadrada de ese número. Nota: investigar la función
+    Math.sqrt().*/
     public static void main(String[] args) {
         Scanner getNumber = new Scanner(System.in);
         int number;

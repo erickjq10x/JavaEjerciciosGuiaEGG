@@ -13,9 +13,8 @@ import java.util.Scanner;
  */
 public class Ejercicio2 {
 
-    /**
-     * @param args the command line arguments
-     */
+    /*Escribir un programa que pida tu nombre, lo guarde en una variable y lo muestre por
+    pantalla.*/
     public static void main(String[] args) {
         Scanner getName = new Scanner(System.in);
         String name;

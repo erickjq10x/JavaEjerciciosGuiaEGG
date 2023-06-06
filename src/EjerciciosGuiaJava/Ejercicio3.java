@@ -13,9 +13,9 @@ import java.util.Scanner;
  */
 public class Ejercicio3 {
 
-    /**
-     * @param args the command line arguments
-     */
+    /*Escribir un programa que pida una frase y la muestre toda en mayúsculas y después toda
+    en minúsculas. Nota: investigar la función toUpperCase() y toLowerCase() en
+    Java.*/
     public static void main(String[] args) {
         Scanner getPhrase = new Scanner(System.in);
         String phrase;
