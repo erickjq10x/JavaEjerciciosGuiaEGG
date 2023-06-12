@@ -14,15 +14,13 @@ public class Ejercicio15 {
     /*Realizar un algoritmo que rellene un vector con los 100 primeros números enteros y los
     muestre por pantalla en orden descendente.*/
     public static void main(String[] args) {
-        int[] array = new int[100];
-        
-        for (int i = 1; i <101; i++) {
-            array[i-1] = i;
+        int[] vector = new int[100];
+        for (int i = 0; i < 100; i++) {
+            vector[i] = i + 1;
         }
-        System.out.println(array[1]);
-        for (int j = 1; j < 101; j++) {
-            System.out.println(array[100-j]);
+        for (int i = 99; i > -1; i--) {
+            System.out.println(vector[i] + " ");
         }
     }
-    
+
 }
